@@ -30,6 +30,15 @@ reader.question("What would you like to calculate?", function(input){
 	else if(mathSymbol === "Sqrt"){
 		console.log(Math.sqrt(num1))
 	}
+	else if (mathSymbol === "sq"){
+		console.log(Math.pow(num1,num2))
+	}
+	else if (mathSymbol === "cube"){
+		console.log(Math.cbrt(num1))
+	}
+	else if (mathSymbol === "exponent"){
+		console.log(Math.exp(num1))
+	}
 
 
 	// This line closes the connection to the command line interface.
