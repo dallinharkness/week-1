@@ -39,6 +39,9 @@ reader.question("What would you like to calculate?", function(input){
 	else if (mathSymbol === "exponent"){
 		console.log(Math.exp(num1))
 	}
+	else if (mathSymbol === "modulus"){
+		console.log(num1 % num2)
+	}
 
 
 	// This line closes the connection to the command line interface.
